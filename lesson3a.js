@@ -18,7 +18,5 @@ else{
     console.log("The value of i is: ", i)
 }
 
-// Create a for loop that is able to print out all the leap years from 200 to 2026\
-//pg 28
 
 

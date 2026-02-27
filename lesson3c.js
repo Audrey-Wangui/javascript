@@ -16,4 +16,4 @@ function sayGoodbye(){
 // call function
 sayGoodbye()
 
-// Research on arrow functions, functions with parameters and anonymous functions in javascript
+

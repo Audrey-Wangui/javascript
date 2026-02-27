@@ -17,4 +17,3 @@ console.log("======")
 let numbers =[1, 2, 3, 4];
 let doubled =numbers.map(number => number**2);
 console.log(doubled)
-// pg 30
