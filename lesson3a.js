@@ -1,5 +1,5 @@
 // Javascript for loop
-// Loops are used to iterate through somthing (Repeat something a number of times)
+// Loops are used to iterate through something (Repeat something a number of times)
 // Structure of the for loop
 // 1. For keyword followed by parenthesis
 // 2. Initialization, set the condition, increment/decrement

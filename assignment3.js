@@ -35,7 +35,7 @@ console.log("=============")
 //Write a for loop to print the multiplication table of 5 from 5x1 to 5x10
 for (m = 1; m <= 10; m ++) {
     let answer = 5*m
-    console.log("5 * " + m + "= " + answer)
+    console.log("5 * ", m, "= ", answer)
 }
 
 console.log("=======")
@@ -86,5 +86,33 @@ else {
 // Research on arrow functions, functions with parameters and anonymous functions in javascript
 
 // Arrow functions
-// It's a mordern way of writimg functions and makes use of an arrow (=>)
+// It's a concise way to write functions and makes use of an arrow (=>)
+// Mostly used for simple functions that are used once
+const hello = () => console.log("Hello")
+hello()
 
+const hi = (name) => console.log(`Hello ${name}`)
+hi("Audrey")
+
+const add = (a, b) => a + b
+console.log (add (20, 30))
+
+// Functions with parameters
+// Parameter = variable a function expects to receive
+// It allows you to pass data into a function so you can work with diffrent inputs
+
+const greet = function(name) {
+    return (`Hello, ${name}`)
+}
+console.log (greet("Wangui"))
+
+function add1(a,b) {
+    return a + b
+}
+console.log(add1(13, 25))
+
+// Anonymous functions are functions with no name and normally use arguments to other functions or assigned to variables
+const welcome = function(name) {
+    return `Hello, ${name}`;
+}
+greet("Wangui")
