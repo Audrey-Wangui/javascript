@@ -10,7 +10,7 @@ const greet = function() {
 
 greet();
 
-// Beow is another anonymous function.
+// Below is another anonymous function.
 (function() {
     console.log("Welcome to the world of programming...")
 })();

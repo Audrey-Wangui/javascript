@@ -88,10 +88,13 @@ else {
 // Arrow functions
 // It's a concise way to write functions and makes use of an arrow (=>)
 // Mostly used for simple functions that are used once
+
+// Without parameters
 const hello = () => console.log("Hello")
 hello()
 
-const hi = (name) => console.log(`Hello ${name}`)
+// With parameters
+const hi = (name) => console.log("Hello", name)
 hi("Audrey")
 
 const add = (a, b) => a + b
@@ -102,7 +105,7 @@ console.log (add (20, 30))
 // It allows you to pass data into a function so you can work with diffrent inputs
 
 const greet = function(name) {
-    return (`Hello, ${name}`)
+    return ("Hello", name)
 }
 console.log (greet("Wangui"))
 
@@ -116,3 +119,5 @@ const welcome = function(name) {
     return `Hello, ${name}`;
 }
 greet("Wangui")
+
+
