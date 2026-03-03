@@ -18,18 +18,18 @@ console.log (add (20, 30))
 // There are two types:
 
 // 1. ES Module
-// Below is some block of code:
-// const divide = (x, y) => x / y
+//Below is some block of code:
+const divide = (x, y) => x / y
 
 // // Now we export this
 // export{divide}
 
-// // Alternatively:
+// // // Alternatively:
 
 // export const branch = (x, y) => x / y
 
 // 2. CommonJS - Node.js(older system)
-// Its sturucture is; module.exports  require()
+// Its sturucture is; module.exports  require() 
 
 const minus = (c, d) => c - d
 module.exports = {minus}
